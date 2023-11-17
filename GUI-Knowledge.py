@@ -13,7 +13,7 @@ L1.place(x=30,y=20)
 
 ###########
 def Button2():
-    text = 'ตอนนี้มีเงินในบัญชีอยุ่ 300 บาท'
+    text = 'ตอนนี้มีเงินในบัญชีอยุ่ 100000 บาท'
     messagebox.showwarning('เงินในบัญชี',text)
 
 FB1 = Frame(GUI) #คล้ายกระดาษ
@@ -24,7 +24,7 @@ B2.pack(ipadx=10,ipady=30)
 
 def Button3():
     text = 'python 101,Math'
-    messagebox.showwarning('เรียนวิชาอะไร',text)
+    messagebox.showwarning('เรียนวิชาอะไรก็ได้หรือป่าวนะ ',text)
 
 
 
